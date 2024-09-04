@@ -1,5 +1,3 @@
-### **Remove Files from Github**
-
 Modify .gitignore File
 
 ```
