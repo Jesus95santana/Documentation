@@ -6,6 +6,8 @@ wp cron event run --due-now
 wp core version
 
 wp plugin list --update=available --fields=title --format=csv | awk 'NR>1 {gsub(/"/, ""); print}'
+
+wp option get siteurl
 ```
 Updates WP Version & All Plugins
 ```
