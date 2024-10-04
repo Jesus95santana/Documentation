@@ -1,6 +1,3 @@
-
-# Standard Operating Procedure (SOP) for Git Branch Management
-
 ## Step 1: Update Your Main Branch
 Ensure your local main branch is up-to-date with the remote repository to avoid conflicts and ensure integration compatibility.
 
