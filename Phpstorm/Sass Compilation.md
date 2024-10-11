@@ -10,11 +10,11 @@ Here's how you could configure the File Watcher for that:
 - **Program**: sass
 - **Arguments**:
 ```
-$FileName$:$ProjectFileDir$/app/public/wp-content/themes/sitename.com/blocks/$FileNameWithoutExtension$.css --no-source-map
+$FileName$:$ProjectFileDir$/app/public/wp-content/themes/sitename/blocks/$FileNameWithoutExtension$.css --no-source-map
 ```
 - **Output paths to refresh**:
 ```
-$ProjectFileDir$/app/public/wp-content/themes/sitename.com/blocks/$FileNameWithoutExtension$.css
+$ProjectFileDir$/app/public/wp-content/themes/sitename/blocks/$FileNameWithoutExtension$.css
 ```
 
 Adjust the settings in PhpStorm's File Watchers to fit these configurations, and you should be all set without `.map` files being generated.
