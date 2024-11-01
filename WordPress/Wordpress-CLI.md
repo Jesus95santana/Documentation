@@ -62,6 +62,7 @@ wp cache flush
 4. `wp user update` - Update a user.
 5. `wp user generate` - Generate dummy users.
 6. `wp user set-role` - Set the role of a user.
+7. `wp user create test test@gmail.com --role=administrator --user_pass=password` - make user
 
 ### Post Management
 
