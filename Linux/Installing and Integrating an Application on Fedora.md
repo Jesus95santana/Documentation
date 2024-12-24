@@ -8,19 +8,19 @@
 
 ## Step 2: Extract and Install the Application
 1. Open a terminal and navigate to the folder where the `.tar.gz` file is located:
-   ```bash
+   ```
    cd ~/Downloads
    ```
 2. Extract the archive:
-   ```bash
+   ```
    tar -xvzf PhpStorm-<version>.tar.gz
    ```
 3. Move the extracted folder to `/opt`:
-   ```bash
+   ```
    sudo mv PhpStorm-<version> /opt/phpstorm
    ```
 4. Create a symlink for easier access from the terminal:
-   ```bash
+   ```
    sudo ln -sf /opt/phpstorm/bin/phpstorm.sh /usr/local/bin/phpstorm
    ```
 
@@ -29,11 +29,11 @@
 ## Step 3: Integrate the Application into the System
 ### 3.1 Create a .desktop Entry
 1. Open a terminal and create a new `.desktop` file:
-   ```bash
+   ```
    sudo nano /usr/share/applications/phpstorm.desktop
    ```
 2. Add the following content to the file:
-   ```ini
+   ```
    [Desktop Entry]
    Version=1.0
    Type=Application
@@ -49,7 +49,7 @@
 
 ### 3.2 Set Permissions for the .desktop File
 Ensure the `.desktop` file is executable:
-```bash
+```
 sudo chmod +x /usr/share/applications/phpstorm.desktop
 ```
 
@@ -59,7 +59,7 @@ sudo chmod +x /usr/share/applications/phpstorm.desktop
 
 ### 3.4 Update the Desktop Environment Cache
 Run the following command to refresh the application database:
-```bash
+```
 update-desktop-database ~/.local/share/applications
 ```
 
